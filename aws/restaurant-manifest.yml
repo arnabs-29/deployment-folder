@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: restaurantapp
-          image: arnab2903/restaurant-listing-service:6
+          image: arnab2903/restaurant-listing-service:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 9091
